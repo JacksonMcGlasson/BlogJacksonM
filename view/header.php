@@ -6,6 +6,7 @@ To change this template file, open  in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>BLOG</title>
     </head>
     <body>
