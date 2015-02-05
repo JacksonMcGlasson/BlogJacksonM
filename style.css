@@ -1,3 +1,29 @@
 body{
     background-color: burlywood;
 }
+p{
+    color: navy;
+    font-size: 20px;  
+}
+label{
+    color: navy;
+}
+input{
+    color: navy;
+    background-color: lightskyblue;
+}
+textarea{
+    color: navy;
+    background-color: lightskyblue;
+}
+h1{
+    color: navy;
+}
+button{
+    color: navy;
+    background-color: lightskyblue;
+}
+nav{
+    color: navy;
+    font-size: 20px; 
+}
