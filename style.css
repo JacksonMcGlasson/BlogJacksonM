@@ -13,18 +13,18 @@ label{
 }
 input{
     color: mediumblue;
-    background-color: lightskyblue;
+    background-color: darkturquoise;
 }
 textarea{
     color: mediumblue;
-    background-color: lightskyblue;
+    background-color: darkturquoise;
 }
 h1,h2{
-    color: mediumblue;
+    color: blue;
 }
 button{
     color: mediumblue;
-    background-color: lightskyblue;
+    background-color: darkturquoise;
 }
 nav{
     color: mediumblue;
