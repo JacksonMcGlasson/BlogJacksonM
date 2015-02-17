@@ -12,7 +12,8 @@ To change this template file, open  in the editor.
     <body>
         <nav>
     <ul>
-        <li><a href="<?php echo $path . "login.php"; ?>">Login</a></li>
-        <li><a href="<?php echo $path . "register.php"; ?>">Register</a></li>
+        <li><a href="<?php echo $path . "/../index.php"; ?>">Main Page</a></li>
+        <li><a href="<?php echo $path . "/../login.php"; ?>">Login</a></li>
+        <li><a href="<?php echo $path . "/../register.php"; ?>">Register</a></li>
     </ul>
 </nav>
