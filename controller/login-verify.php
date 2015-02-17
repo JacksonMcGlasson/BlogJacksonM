@@ -1,7 +1,7 @@
 <?php
 
 require_once (__DIR__ . "/../model/config.php");
-
+//authenticates that the user is actually logged in
 function authenticateUser() {
     if (!isset($_SESSION["authenticated"])) {
         return false;
