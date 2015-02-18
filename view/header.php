@@ -7,6 +7,7 @@ To change this template file, open  in the editor.
     <head>
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="style.css">
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
         <title>BLOG</title>
     </head>
     <body>
