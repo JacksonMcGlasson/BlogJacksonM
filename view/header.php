@@ -11,7 +11,7 @@ To change this template file, open  in the editor.
     </head>
     <body>
         <nav>
-    <ul>
+    <ul class="nav nav-tabs">
         <li><a href="http://localhost:8383/Portfolio2/index.html">My Portfolio</a></li>
         <li><a href="http://localhost/BlogJacksonM/index.php">Main Page</a></li>
         <li><a href="http://localhost/BlogJacksonM//login.php">Login</a></li>
