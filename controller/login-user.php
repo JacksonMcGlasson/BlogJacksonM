@@ -8,7 +8,7 @@ $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
 
 //selects the the salt and password from the users table wher the username matches the username variable
 $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE BINARY username = '$username'");
-$query =$_SESSION["connection"]->query("SELECT * FROM user_list WHERE uname='".$server->real_escape_string($uname)."'");
+//$query =$_SESSION["connection"]->query("SELECT * FROM user_list WHERE username='".$server->real_escape_string($username)."'");
 
 //checks validility of login
 if ($query->num_rows == 1) {
