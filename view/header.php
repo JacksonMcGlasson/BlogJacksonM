@@ -11,6 +11,8 @@ To change this template file, open  in the editor.
         <title>BLOG</title>
     </head>
     <body>
+        <!-- links that go to my portfolio 2,the main page of the blog,
+             the login page, and the register page -->
         <nav>
             <ul class="nav nav-tabs">
                 <li><a href="http://localhost:8383/Portfolio2/index.html">My Portfolio</a></li>

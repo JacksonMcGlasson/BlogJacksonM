@@ -1,7 +1,7 @@
 <?php
 require_once (__DIR__ . "/../model/config.php");
 require_once (__DIR__ . "/../controller/login-verify.php");
-
+//if the user is not authentic they are sent back to the index
 if (!authenticateUser()) {
     header("Location:" . $path . "index.php");
     die();
