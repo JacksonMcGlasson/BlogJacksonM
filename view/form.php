@@ -21,6 +21,10 @@ if (!authenticateUser()) {
         <label for="post">Post: </label>
         <textarea name="post"></textarea>
     </div>
+  <!--  <div>
+        <label for="post">Photo: </label>
+        <input type="file" name="filep" size="35"/>
+    </div>-->
     <div>
         <button type="submit">Submit</button>
     </div>
