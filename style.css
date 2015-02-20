@@ -1,38 +1,46 @@
 body{
-    background-color: blue;
+    background-image: url(http://miriadna.com/desctopwalls/images/max/Space-clouds.jpg);
 }
 p{
-    color: mediumblue;
+    color: lightskyblue;
     font-size: 20px;  
-    border-color: mediumblue;
+    background-color: #3278b3;
+    border-color: lightskyblue;
     border-style: solid;
     border-width: 5px;
     padding-right: 0px;
 }
 label{
-    color: mediumblue;
+    color: lightskyblue;
 }
 input{
-    color: mediumblue;
-    background-color: darkturquoise;
+    color: lightskyblue;
+    background-color: #3278b3;
 }
 textarea{
     color: mediumblue;
-    background-color: darkturquoise;
+    background-color: #3278b3;
 }
 h1,h2{
-    color: blue;
+    color: lightskyblue;
     font-size: 25px;
 }
 button{
-    color: mediumblue;
-    background-color: darkturquoise;
+    color: lightskyblue;
+    background-color: #3278b3;
 }
 nav{
-    color: mediumblue;
+    color: lightskyblue;
     font-size: 20px; 
-    border-color: mediumblue;
+    background-color: #3278b3;
+    border-color: lightskyblue;
     border-style: solid;
     border-width: 5px;
-
+}
+a{
+    color: lightskyblue;
+}
+#bottom{
+    font-size: 0px;
+    border: 0px;
 }

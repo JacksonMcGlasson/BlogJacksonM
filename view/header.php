@@ -6,14 +6,14 @@ To change this template file, open  in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <link type="text/css" rel="stylesheet" href="style.css">
         <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="style.css">
         <title>BLOG</title>
     </head>
     <body>
         <!-- links that go to my portfolio 2,the main page of the blog,
              the login page, and the register page -->
-        <nav>
+        <nav name="top">
             <ul class="nav nav-tabs">
                 <li><a href="http://localhost:8383/Portfolio2/index.html">My Portfolio</a></li>
                 <li><a href="http://localhost/BlogJacksonM/index.php">Main Page</a></li>
@@ -21,3 +21,4 @@ To change this template file, open  in the editor.
                 <li><a href="http://localhost/BlogJacksonM//register.php">Register</a></li>
             </ul>
         </nav>
+        <li><a href="index.php#bottom">To Bottom of page</a></li>
