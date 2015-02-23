@@ -21,4 +21,5 @@ To change this template file, open  in the editor.
                 <li><a href="http://localhost/BlogJacksonM//register.php">Register</a></li>
             </ul>
         </nav>
+        <!-- link to the bottom of the page -->
         <li><a href="index.php#bottom">To Bottom of page</a></li>
