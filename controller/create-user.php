@@ -20,7 +20,6 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
         . "username = '$username',"
         . "password = '$hashedPassword',"
         . "salt = '$salt'");
-
 //checks if user was created successfully
 if ($query) {
     echo "Succesfully created user: $username";
