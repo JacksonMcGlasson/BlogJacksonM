@@ -22,4 +22,4 @@ To change this template file, open  in the editor.
             </ul>
         </nav>
         <!-- link to the bottom of the page -->
-        <li><a href="index.php#bottom">To Bottom of page</a></li>
+      <li><a href="index.php#bottom">To Bottom of page</a></li>

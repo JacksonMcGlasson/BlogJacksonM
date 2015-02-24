@@ -1,6 +1,7 @@
 /* puts in background image*/
 body{
     background-image: url(http://miriadna.com/desctopwalls/images/max/Space-clouds.jpg);
+    color: lightskyblue;
 }
 /*styling for all the paragraphs*/
 p{

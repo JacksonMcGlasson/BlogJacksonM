@@ -13,5 +13,10 @@ if ($result) {
         echo "<p>" . $row['post'] . "</h1>";
         echo "<br />";
         echo "</div>";
+        date_default_timezone_set('America/Los_Angeles');
+$date = date('m/d/Y h:i:s a', time());
+$now = new DateTime();
+echo $now->format('Y-m-d H:i:s');    // MySQL datetime format
+echo $now->getTimestamp();
     }
 }
