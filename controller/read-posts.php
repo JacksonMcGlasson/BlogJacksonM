@@ -14,9 +14,10 @@ if ($result) {
         echo "<br />";
         echo "</div>";
         date_default_timezone_set('America/Los_Angeles');
-$date = date('m/d/Y h:i:s a', time());
-$now = new DateTime();
-echo $now->format('Y-m-d H:i:s');    // MySQL datetime format
-echo $now->getTimestamp();
+        echo "This is currently the time of day and not the post";
+        $date = date('m/d/Y h:i:s a', time());
+        $now = new DateTime();
+        echo $now->format('Y-m-d H:i:s');    // MySQL datetime format
+        echo $now->getTimestamp();
     }
 }
