@@ -12,6 +12,7 @@ if ($result) {
         echo "<br />";
         echo "<p>" . $row['post'] . "</h1>";
         echo "<br />";
+      //  echo "<p>" . $row['photo'] . "</h1>";
         echo "</div>";
         date_default_timezone_set('America/Los_Angeles');
         echo "This is currently the time of day and not the post";
