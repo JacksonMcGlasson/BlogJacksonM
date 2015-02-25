@@ -30,5 +30,5 @@ if (!$use->num_rows > 0 && !$ema->num_rows > 0) {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
     }
 } else {
-    echo "<p>Username and/or email is already registered to an account ";
+    echo "<p>Username and/or email is already registered to an account</p>";
 }

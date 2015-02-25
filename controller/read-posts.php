@@ -12,10 +12,10 @@ if ($result) {
         echo "<br />";
         echo "<p>" . $row['post'] . "</h1>";
         echo "<br />";
-      //  echo "<p>" . $row['photo'] . "</h1>";
         echo "</div>";
         date_default_timezone_set('America/Los_Angeles');
-        echo "This is currently the time of day and not the post";
+        echo "Current time:";
+        echo "<br />";
         $date = date('m/d/Y h:i:s a', time());
         $now = new DateTime();
         echo $now->format('Y-m-d H:i:s');    // MySQL datetime format
