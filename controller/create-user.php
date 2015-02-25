@@ -13,10 +13,10 @@ $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
 $salt = "$5$" . "rounds=5000$" . uniqid(mt_rand(), true) . "$";
 
 $hashedPassword = crypt($password, $salt);
-
+//checks for users that already exist
 $use = $_SESSION["connection"]->query("SELECT username FROM users WHERE username='" . $username . "'");
 $ema = $_SESSION["connection"]->query("SELECT username FROM users WHERE email='" . $email . "'");
-//sends register info to user table
+//sends register info to user table if the username and email are not already being used
 if (!$use->num_rows > 0 && !$ema->num_rows > 0) {
     $query = $_SESSION["connection"]->query("INSERT INTO users SET "
             . "email = '$email',"
