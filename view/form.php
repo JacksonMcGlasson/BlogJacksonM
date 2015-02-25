@@ -10,7 +10,7 @@ if (!authenticateUser()) {
 
 
 <h1>Create Blog Post</h1>
-
+<!-- form for blog posts-->
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>
         <label for="title">Title: </label>
