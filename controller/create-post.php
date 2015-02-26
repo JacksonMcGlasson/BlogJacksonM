@@ -7,7 +7,7 @@ require_once (__DIR__ . "/../view/footer.php");
 //filters the title and post data
 $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
 $post = filter_input(INPUT_POST, "post", FILTER_SANITIZE_STRING);
- 
+
 $date = new DateTime('today');
 $time = new DateTime('America/Los_Angeles');
 //inserts post into post table and sets a title to = the title variable 
