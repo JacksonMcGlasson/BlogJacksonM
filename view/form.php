@@ -12,16 +12,15 @@ if (!authenticateUser()) {
 <h1>Create Blog Post</h1>
 <!-- form for blog posts-->
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
-    <div>
+    <div><!--where you input the title-->
         <label for="title">Title: </label>
         <input type="text" name="title" />
     </div>
-
-    <div>
+    <div><!--where you input the actual post body-->
         <label for="post">Post: </label>
         <textarea name="post"></textarea>
     </div>
-    <div>
+    <div><!--the button to submit the info to the database-->
         <button type="submit">Submit</button>
     </div>
 </form>

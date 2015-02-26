@@ -8,14 +8,14 @@ $result = $_SESSION["connection"]->query($query);
 if ($result) {
     while ($row = mysqli_fetch_array($result)) {
         echo "<div class = 'posts'>";
+        //shows the title of the post
         echo "<h2>" . $row['title'] . "</h2>";
         echo "<br />";
+        //shows the actual post body
         echo "<p>" . $row['post'] . "</h1>";
         echo "<br />";
+        //shows time of the post
         echo "<p>" . $row['time'] . "</h1>";
         echo "</div>";
-        
-        
-        $date = date('m/d/Y h:i:s a', time());
     }
 }
