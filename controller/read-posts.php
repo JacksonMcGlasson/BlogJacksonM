@@ -17,8 +17,6 @@ if ($result) {
         //shows time of the post
         echo "<p>" . $row['time'] . "</h1>";
         echo "<br />";
-        echo "<p>This post was writ <?php the_author(); ?></p>";
-        echo "<br />";
         echo "</div>";
     }
 }
