@@ -1,5 +1,5 @@
 <?php
-
+//getting information from other page
 require_once (__DIR__ . "/../model/config.php");
 
 //authenticates that the user is actually logged in

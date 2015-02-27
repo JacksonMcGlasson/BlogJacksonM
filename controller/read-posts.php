@@ -1,5 +1,5 @@
 <?php
-
+//getting information from other page
 require_once (__DIR__ . "/../model/config.php");
 //retrieves post from database
 $query = "SELECT * FROM posts";
