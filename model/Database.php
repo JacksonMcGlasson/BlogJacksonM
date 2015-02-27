@@ -20,9 +20,9 @@ class Database {
         if ($this->connection->connect_error) {
             die("<p>Error: " . $this->connection->connect_error . "</p>");
         }
-
+        //database connection
         $exists = $this->connection->select_db($database);
-
+        //creates database
         if (!$exists) {
             $query = $this->connection->query("CREATE DATABASE $database");
             if ($query) {
