@@ -1,4 +1,5 @@
 <?php
+//gets info from other page
 require_once (__DIR__ . "/../model/config.php");
 ?>
 
